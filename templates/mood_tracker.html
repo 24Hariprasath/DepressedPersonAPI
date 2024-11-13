@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Mood Tracker</h2>
+<form method="POST">
+    <label>Select your mood:</label>
+    <select name="mood">
+        <option>Happy</option>
+        <option>Sad</option>
+        <option>Stressed</option>
+        <option>Anxious</option>
+        <option>Neutral</option>
+    </select>
+    <button type="submit">Submit Mood</button>
+</form>
+{% endblock %}
